@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Handlee", cursive;
+}
+
+body {
+  background-image: url("./img/nice.jpg");
+  background-size: 69%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+#header {
+  position: absolute;
+  top: 70px;
+  left: 420px;
+  color: white;
+  font-size: 30px;
+  text-shadow: 1.5px 1.5px 4px black;
+}
+
+#textoInstrucao {
+  position: absolute;
+  top: 120px;
+  left: 480px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+}
+
+#inputsDiv {
+  position: absolute;
+  top: 160px;
+  left: 250px;
+}
+
+img {
+  width: 400px;
+  height: 220px;
+  position: absolute;
+  top: 158px;
+  right: 310px;
+}
+
+.labelsTriangulo {
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+  text-align: center;
+}
+
+#labelCatetoOposto {
+  width: 150px;
+  font-size: 20px;
+  position: absolute;
+  top: 240px;
+  right: 195px;
+}
+
+#labelCatetoAdjacente {
+  width: 180px;
+  position: absolute;
+  top: 385px;
+  right: 470px;
+  font-size: 22px;
+}
+
+#labelHipotenusa {
+  width: 200px;
+  font-size: 30px;
+  position: absolute;
+  top: 230px;
+  right: 424px;
+  transform: rotate(-28deg);
+}
+
+.valores {
+  /* border: 1px solid pink; */
+  font-size: 25px;
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+}
+
+#valorCatetoOposto {
+  position: absolute;
+  top: 300px;
+  right: 220px;
+  transform: rotate(0deg);
+}
+
+#valorCatetoAdjacente {
+  position: absolute;
+  top: 380px;
+  right: 410px;
+}
+
+#valorHipotenusa {
+  position: absolute;
+  top: 185px;
+  right: 400px;
+  transform: rotate(-28deg);
+}
+
+label {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  position: relative;
+  left: 30px;
+  top: 30px;
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+}
+
+.inputs {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  font-size: 18px;
+  margin: 2px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.inputs:hover {
+  box-shadow: 1px 1px 1px black;
+  transition: 0.5s;
+}
+
+select {
+  position: relative;
+  left: 30px;
+  top: 30px;
+  font-size: 10px;
+  margin: 2px;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+select:hover {
+  box-shadow: 1px 1px 1px black;
+  transition: 0.5s;
+}
+
+.buttons {
+  display: inline-block;
+  padding: 2px 20px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+  background-color: #d07f5b;
+}
+
+.buttons:hover {
+  box-shadow: 2px 2px 2px gray;
+}
+
+.buttons[onclick="calcular()"] {
+  position: absolute;
+  left: 395px;
+  top: 360px;
+  margin-bottom: 5px;
+}
+
+input[type="reset"] {
+  position: absolute;
+  left: 400px;
+  top: 395px;
+  margin-bottom: 10px;
+}
+
+#resposta {
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+  font-size: 20px;
+  width: 500px;
+  position: absolute;
+  top: 460px;
+  left: 300px;
+  letter-spacing: 2px;
+}
+
+#copyRight {
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+  position: relative;
+  top: 420px;
+  left: 945px;
+}
+
+#assinatura {
+  position: relative;
+  top: 445px;
+  left: 850px;
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+}
+
+#ano {
+  position: relative;
+  top: 465px;
+  left: 777px;
+  color: white;
+  text-shadow: 1.5px 1.5px 4px black;
+}
