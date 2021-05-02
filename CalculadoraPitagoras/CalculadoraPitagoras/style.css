@@ -14,34 +14,34 @@ body {
 
 #header {
   position: absolute;
-  top: 70px;
-  left: 420px;
+  top: 4.375rem;
+  left: 26.25rem;
   color: white;
-  font-size: 30px;
+  font-size: 1.875rem;
   text-shadow: 1.5px 1.5px 4px black;
 }
 
 #textoInstrucao {
   position: absolute;
-  top: 120px;
-  left: 480px;
-  font-size: 20px;
+  top: 7.5rem;
+  left: 30rem;
+  font-size: 1.25rem;
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
 }
 
 #inputsDiv {
   position: absolute;
-  top: 160px;
-  left: 250px;
+  top: 10rem;
+  left: 15.625rem;
 }
 
 img {
-  width: 400px;
-  height: 220px;
+  width: 25rem;
+  height: 13.75rem;
   position: absolute;
-  top: 158px;
-  right: 310px;
+  top: 9.875rem;
+  right: 19.375rem;
 }
 
 .labelsTriangulo {
@@ -59,33 +59,33 @@ img {
 }
 
 #labelCatetoAdjacente {
-  width: 180px;
+  width: 9.375rem;
   position: absolute;
-  top: 385px;
-  right: 470px;
-  font-size: 22px;
+  top: 24.063rem;
+  right: 29.375rem;
+  font-size: 1.375rem;
 }
 
 #labelHipotenusa {
-  width: 200px;
-  font-size: 30px;
+  width: 12.5rem;
+  font-size: 1.875rem;
   position: absolute;
-  top: 230px;
-  right: 424px;
+  top: 14.375rem;
+  right: 26.5rem;
   transform: rotate(-28deg);
 }
 
 .valores {
   /* border: 1px solid pink; */
-  font-size: 25px;
+  font-size: 1.563rem;
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
 }
 
 #valorCatetoOposto {
   position: absolute;
-  top: 300px;
-  right: 220px;
+  top: 18.75rem;
+  right: 13.75rem;
   transform: rotate(0deg);
 }
 
@@ -97,8 +97,8 @@ img {
 
 #valorHipotenusa {
   position: absolute;
-  top: 185px;
-  right: 400px;
+  top: 18.75rem;
+  right: 25rem;
   transform: rotate(-28deg);
 }
 
@@ -115,12 +115,12 @@ label {
 
 .inputs {
   position: relative;
-  top: 30px;
-  left: 30px;
-  font-size: 18px;
-  margin: 2px;
-  padding: 4px;
-  border-radius: 6px;
+  top: 1.875rem;
+  left: 1.875rem;
+  font-size: 1.125rem;
+  margin: 0.125rem;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
 }
 
 .inputs:hover {
@@ -130,12 +130,12 @@ label {
 
 select {
   position: relative;
-  left: 30px;
-  top: 30px;
-  font-size: 10px;
-  margin: 2px;
-  padding: 4px;
-  border-radius: 6px;
+  left: 1.875rem;
+  top: 1.875rem;
+  font-size: 0.625rem;
+  margin: 0.125rem;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
 }
 
 select:hover {
@@ -145,7 +145,7 @@ select:hover {
 
 .buttons {
   display: inline-block;
-  padding: 2px 20px;
+  padding: 0.125rem 1.25rem;
   color: white;
   text-shadow: 1px 1px 4px black;
   background-color: #d07f5b;
@@ -157,49 +157,49 @@ select:hover {
 
 .buttons[onclick="calcular()"] {
   position: absolute;
-  left: 395px;
-  top: 360px;
-  margin-bottom: 5px;
+  left: 24.688rem;
+  top: 22.5rem;
+  margin-bottom: 0.313rem;
 }
 
 input[type="reset"] {
   position: absolute;
-  left: 400px;
-  top: 395px;
-  margin-bottom: 10px;
+  left: 24.688rem;
+  top: 24.688rem;
+  margin-bottom: 0.625rem;
 }
 
 #resposta {
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
-  font-size: 20px;
-  width: 500px;
+  font-size: 1.25rem;
+  width: 31.25rem;
   position: absolute;
-  top: 460px;
-  left: 300px;
-  letter-spacing: 2px;
+  top: 28.75rem;
+  left: 18.75rem;
+  letter-spacing: 0.125rem;
 }
 
 #copyRight {
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
   position: relative;
-  top: 420px;
-  left: 945px;
+  top: 26.25rem;
+  left: 59.063rem;
 }
 
 #assinatura {
   position: relative;
-  top: 445px;
-  left: 850px;
+  top: 27.813rem;
+  left: 53.125rem;
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
 }
 
 #ano {
   position: relative;
-  top: 465px;
-  left: 777px;
+  top: 29.063rem;
+  left: 48.563rem;
   color: white;
   text-shadow: 1.5px 1.5px 4px black;
 }
