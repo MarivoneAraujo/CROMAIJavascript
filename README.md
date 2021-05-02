@@ -4,10 +4,13 @@
 ### 📃 Página finalizada:
 Acesse [ aqui](https://marivone-javascript-cromai.surge.sh/) para visualização rápida.
 
-### 📱 Responsividade:
+### 📱 Configuração de tela:
+Resolução 1920 x 1080
+
+### 💻 Responsividade:
 Ausente
 
-### 💻 Tecnologias:
+### 💾 Tecnologias:
 - Javascript
 - HTML5
 
